@@ -1,0 +1,181 @@
+body {
+	background-color: #ebece4;
+	margin:0;
+	text-align: center;
+}
+/* barre nav */
+nav {
+	background-color: #78bb47;
+}
+
+nav ul {
+	margin:0;
+	padding:0;
+}
+
+nav li{
+	display: inline-block;
+}
+
+nav li a{
+	font-family: arimo,Verdana;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	height: 40px;
+	margin: 0px;
+	line-height: 40px;
+	padding: 13px 10px;
+}
+nav li:hover{
+	background-color: #ebece4;
+}
+nav li a:hover{
+	color: #78bb47;
+}
+
+h1{
+	margin-top: 20px;
+}
+
+@media screen and (max-width : 420px) {
+	
+	#logo{
+		width: 320px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+
+	nav li{
+		display: block;
+	}
+}
+
+/* News mags & évenements */
+
+.news{
+	text-align: left;
+	padding:5px;
+	height:150px;
+	background-color: #78bb47;
+	margin:10px;
+}
+/* nouveautés & produits */
+h2{
+	font-family: arimo,Verdana;
+}
+
+p {
+	font-family: arimo,Verdana;
+}
+
+a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.description{
+	opacity: 0;
+	color:#78bb47;
+	text-shadow: 0 5px 5px black;
+	font-size:2em;
+	line-height:150px;
+	font-weight: bold;
+}
+
+.description:hover{
+	opacity: 1;
+}
+
+.illustration{
+	opacity: 0.8;
+	display: inline-block;
+	background-size: cover;
+	width:300px;
+	height:150px;
+	margin-top: 10px;
+}
+
+.illustration:hover{
+	opacity: 1;
+}
+
+#grosgalets {
+    background-image: url("img/nouveaute/grosgalets.jpg");
+}
+
+#petitgalets {
+    background-image: url("img/nouveaute/petitgalets.jpg");
+}
+
+#gazondeplacage {
+    background-image: url("img/nouveaute/gazondeplacage.png");
+}
+
+#mineral {
+    background-image: url("img/mineral/mineral1.jpg");
+}
+
+#vegetal {
+    background-image: url("img/vegetal/vegetal1.jpg");
+}
+
+#accessoires {
+    background-image: url("img/accessoires/accessoire1.png");
+}
+/* services du mag */
+.imgservices{
+	margin-top: 10px;
+}
+
+.services{
+	margin-top: 15px;
+	text-align: left;
+}
+/* footer */
+footer{
+	background-color:#78bb47;
+	margin-top: 10px;
+}
+footer ul{
+	margin-right: 40px;
+}
+footer li{
+	list-style-type: none;
+}
+
+#reseaux img{
+	width: 50px;
+	height: 50px;
+	margin-bottom: 20px; 
+}
+
+#contacts, #horaires, #reseaux, #avis{
+	display: inline-block;
+	vertical-align: top;
+	list-style-type: none;
+}
+
+#copyright{
+	background-color: #78bb47;
+	margin-bottom: 5px;
+}
+
+#copyright a{
+	color:#333;
+}
+
+/* page contacts */
+#contacteznous{
+	text-align:left;
+	margin-left: 10px;
+}
+
+#contacteznous h3{
+	font-size: 1.3em;
+}
+/* google map */
+iframe{
+	border: 1px solid black;
+}
